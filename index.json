@@ -2,7 +2,7 @@
   "api/Global.HitInfoManager.html": {
     "href": "api/Global.HitInfoManager.html",
     "title": "Class HitInfoManager | JMR Samples",
-    "keywords": "Class HitInfoManager Inheritance Object HitInfoManager Namespace : Global Assembly : cs.temp.dll.dll Syntax public class HitInfoManager : MonoBehaviour Fields CursorObjectText Declaration public TextMeshProUGUI CursorObjectText Field Value Type Description TextMeshProUGUI FocusedObjectText Declaration public TextMeshProUGUI FocusedObjectText Field Value Type Description TextMeshProUGUI HitObjectText Declaration public TextMeshProUGUI HitObjectText Field Value Type Description TextMeshProUGUI Methods CursorInfo() Get JMRPointerObject and update it on UI. Declaration public void CursorInfo()"
+    "keywords": "Class HitInfoManager Inheritance Object HitInfoManager Namespace : Global Assembly : cs.temp.dll.dll Syntax public class HitInfoManager : MonoBehaviour Methods CursorInfo() Get JMRPointerObject and update it on UI. Declaration public void CursorInfo()"
   },
   "api/Global.html": {
     "href": "api/Global.html",

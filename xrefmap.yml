@@ -28,21 +28,3 @@ references:
   isSpec: "True"
   fullName: HitInfoManager.CursorInfo
   nameWithType: HitInfoManager.CursorInfo
-- uid: Global.HitInfoManager.CursorObjectText
-  name: CursorObjectText
-  href: api/Global.HitInfoManager.html#Global_HitInfoManager_CursorObjectText
-  commentId: F:Global.HitInfoManager.CursorObjectText
-  fullName: HitInfoManager.CursorObjectText
-  nameWithType: HitInfoManager.CursorObjectText
-- uid: Global.HitInfoManager.FocusedObjectText
-  name: FocusedObjectText
-  href: api/Global.HitInfoManager.html#Global_HitInfoManager_FocusedObjectText
-  commentId: F:Global.HitInfoManager.FocusedObjectText
-  fullName: HitInfoManager.FocusedObjectText
-  nameWithType: HitInfoManager.FocusedObjectText
-- uid: Global.HitInfoManager.HitObjectText
-  name: HitObjectText
-  href: api/Global.HitInfoManager.html#Global_HitInfoManager_HitObjectText
-  commentId: F:Global.HitInfoManager.HitObjectText
-  fullName: HitInfoManager.HitObjectText
-  nameWithType: HitInfoManager.HitObjectText
