@@ -7,9 +7,9 @@ using TMPro;
 
 public class HitInfoManager : MonoBehaviour
 {
-    public TextMeshProUGUI CursorObjectText;
-    public TextMeshProUGUI FocusedObjectText;
-    public TextMeshProUGUI HitObjectText;
+    [SerializeField] TextMeshProUGUI CursorObjectText;
+    [SerializeField] TextMeshProUGUI FocusedObjectText;
+    [SerializeField] TextMeshProUGUI HitObjectText;
 
 	/// <summary>
 	/// Call all the functions that update info.
