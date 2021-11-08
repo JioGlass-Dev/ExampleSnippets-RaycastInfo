@@ -1,75 +1,77 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 using JMRSDK.InputModule;
 using TMPro;
 
-public class HitInfoManager : MonoBehaviour
+namespace JMRSDKExampleSnippets
 {
-    [SerializeField] TextMeshProUGUI CursorObjectText;
-    [SerializeField] TextMeshProUGUI FocusedObjectText;
-    [SerializeField] TextMeshProUGUI HitObjectText;
-
 	/// <summary>
-	/// Call all the functions that update info.
+	/// Example of accessing raycast hit info
 	/// </summary>
-    private void Update()
+	public class HitInfoManager : MonoBehaviour
 	{
-		HitObjectInfo();
-		FocusedObjectInfo();
-		CursorInfo();
-	}
+		[SerializeField] TextMeshProUGUI CursorObjectText;
+		[SerializeField] TextMeshProUGUI FocusedObjectText;
+		[SerializeField] TextMeshProUGUI HitObjectText;
 
-	/// <summary>
-	/// Get JMRPointerObject and update it on UI.
-	/// </summary>
-	public void CursorInfo()
-	{
-		// get cursor transform
-		Transform cursorTransform = JMRPointerManager.Instance.GetCursorTransform();
-		if (cursorTransform == null)
+		/// <summary>
+		/// Call all the functions that update info.
+		/// </summary>
+		private void Update()
 		{
-			CursorObjectText.text = "Cursor Object : null";
+			HitObjectInfo();
+			FocusedObjectInfo();
+			CursorInfo();
 		}
-		else
-		{
-			CursorObjectText.text = "Cursor Object : " + cursorTransform.name;
-		}
-	}
 
-	/// <summary>
-	/// Get the currently focused object and update it on UI.
-	/// </summary>
-	private void FocusedObjectInfo()
-	{
-		// get current focus
-		GameObject go = JMRPointerManager.Instance.GetCurrentFocusedObject();
-		if (go == null)
+		/// <summary>
+		/// Get JMRPointerObject and update it on UI.
+		/// </summary>
+		public void CursorInfo()
 		{
-			FocusedObjectText.text = "Focused Object : null";
+			// get cursor transform
+			Transform cursorTransform = JMRPointerManager.Instance.GetCursorTransform();
+			if (cursorTransform == null)
+			{
+				CursorObjectText.text = "Cursor Object : null";
+			}
+			else
+			{
+				CursorObjectText.text = "Cursor Object : " + cursorTransform.name;
+			}
 		}
-		else
-		{
-			FocusedObjectText.text = "Focused Object : " + go.name;
-		}
-	}
 
-	/// <summary>
-	/// Get the currently hit object and update it on UI.
-	/// </summary>
-	private void HitObjectInfo()
-	{
-		// get current ray
-		Ray ray = JMRPointerManager.Instance.GetCurrentRay();
-		if (Physics.Raycast(ray, out RaycastHit hit))
+		/// <summary>
+		/// Get the currently focused object and update it on UI.
+		/// </summary>
+		private void FocusedObjectInfo()
 		{
-			HitObjectText.text = "Hit Object : " + hit.transform.name;
+			// get current focus
+			GameObject go = JMRPointerManager.Instance.GetCurrentFocusedObject();
+			if (go == null)
+			{
+				FocusedObjectText.text = "Focused Object : null";
+			}
+			else
+			{
+				FocusedObjectText.text = "Focused Object : " + go.name;
+			}
 		}
-		else
+
+		/// <summary>
+		/// Get the currently hit object and update it on UI.
+		/// </summary>
+		private void HitObjectInfo()
 		{
-			HitObjectText.text = "Hit Object : null";
+			// get current ray
+			Ray ray = JMRPointerManager.Instance.GetCurrentRay();
+			if (Physics.Raycast(ray, out RaycastHit hit))
+			{
+				HitObjectText.text = "Hit Object : " + hit.transform.name;
+			}
+			else
+			{
+				HitObjectText.text = "Hit Object : null";
+			}
 		}
 	}
 }
-
