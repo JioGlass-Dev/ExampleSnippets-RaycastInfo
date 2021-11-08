@@ -1,30 +1,28 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: Global
-  name: Global
-  href: api/Global.html
-  name.vb: ''
-  fullName: Global
-  fullName.vb: ''
-  nameWithType: Global
-  nameWithType.vb: ''
-- uid: Global.HitInfoManager
+- uid: JMRSDKExampleSnippets
+  name: JMRSDKExampleSnippets
+  href: api/JMRSDKExampleSnippets.html
+  commentId: N:JMRSDKExampleSnippets
+  fullName: JMRSDKExampleSnippets
+  nameWithType: JMRSDKExampleSnippets
+- uid: JMRSDKExampleSnippets.HitInfoManager
   name: HitInfoManager
-  href: api/Global.HitInfoManager.html
-  commentId: T:Global.HitInfoManager
-  fullName: HitInfoManager
+  href: api/JMRSDKExampleSnippets.HitInfoManager.html
+  commentId: T:JMRSDKExampleSnippets.HitInfoManager
+  fullName: JMRSDKExampleSnippets.HitInfoManager
   nameWithType: HitInfoManager
-- uid: Global.HitInfoManager.CursorInfo
+- uid: JMRSDKExampleSnippets.HitInfoManager.CursorInfo
   name: CursorInfo()
-  href: api/Global.HitInfoManager.html#Global_HitInfoManager_CursorInfo
-  commentId: M:Global.HitInfoManager.CursorInfo
-  fullName: HitInfoManager.CursorInfo()
+  href: api/JMRSDKExampleSnippets.HitInfoManager.html#JMRSDKExampleSnippets_HitInfoManager_CursorInfo
+  commentId: M:JMRSDKExampleSnippets.HitInfoManager.CursorInfo
+  fullName: JMRSDKExampleSnippets.HitInfoManager.CursorInfo()
   nameWithType: HitInfoManager.CursorInfo()
-- uid: Global.HitInfoManager.CursorInfo*
+- uid: JMRSDKExampleSnippets.HitInfoManager.CursorInfo*
   name: CursorInfo
-  href: api/Global.HitInfoManager.html#Global_HitInfoManager_CursorInfo_
-  commentId: Overload:Global.HitInfoManager.CursorInfo
+  href: api/JMRSDKExampleSnippets.HitInfoManager.html#JMRSDKExampleSnippets_HitInfoManager_CursorInfo_
+  commentId: Overload:JMRSDKExampleSnippets.HitInfoManager.CursorInfo
   isSpec: "True"
-  fullName: HitInfoManager.CursorInfo
+  fullName: JMRSDKExampleSnippets.HitInfoManager.CursorInfo
   nameWithType: HitInfoManager.CursorInfo

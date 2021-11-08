@@ -1,13 +1,13 @@
 {
-  "api/Global.HitInfoManager.html": {
-    "href": "api/Global.HitInfoManager.html",
+  "api/JMRSDKExampleSnippets.HitInfoManager.html": {
+    "href": "api/JMRSDKExampleSnippets.HitInfoManager.html",
     "title": "Class HitInfoManager | JMR Samples",
-    "keywords": "Class HitInfoManager Inheritance Object HitInfoManager Namespace : Global Assembly : cs.temp.dll.dll Syntax public class HitInfoManager : MonoBehaviour Methods CursorInfo() Get JMRPointerObject and update it on UI. Declaration public void CursorInfo()"
+    "keywords": "Class HitInfoManager Example of accessing raycast hit info Inheritance Object HitInfoManager Namespace : JMRSDKExampleSnippets Assembly : cs.temp.dll.dll Syntax public class HitInfoManager : MonoBehaviour Methods CursorInfo() Get JMRPointerObject and update it on UI. Declaration public void CursorInfo()"
   },
-  "api/Global.html": {
-    "href": "api/Global.html",
-    "title": "Namespace Global | JMR Samples",
-    "keywords": "Namespace Global Classes HitInfoManager"
+  "api/JMRSDKExampleSnippets.html": {
+    "href": "api/JMRSDKExampleSnippets.html",
+    "title": "Namespace JMRSDKExampleSnippets | JMR Samples",
+    "keywords": "Namespace JMRSDKExampleSnippets Classes HitInfoManager Example of accessing raycast hit info"
   },
   "index.html": {
     "href": "index.html",
