@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>ExampleSnippets-RaycastInfo | JMR Samples </title>
+    <title>Raycast Info | JMR Samples </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="ExampleSnippets-RaycastInfo | JMR Samples ">
+    <meta name="title" content="Raycast Info | JMR Samples ">
     <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="favicon.ico">
@@ -70,9 +70,33 @@
         <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="examplesnippets-raycastinfo">ExampleSnippets-RaycastInfo</h1>
+<h1 id="raycast-info">Raycast Info</h1>
 
 <p>Get Information about the raycast</p>
+<h2 id="scripts">Scripts</h2>
+<h3 id="hitinfomanagercs"><code>HitInfoManager.cs</code></h3>
+<p>Shows examples of accessing raycast hit related info.<br></p>
+<ul>
+<li>Getting JMRPointerObject
+<code>cs
+Transform cursorTransform = JMRPointerManager.Instance.GetCursorTransform();</code></li>
+<li>Getting currently focused object
+<code>cs
+GameObject go = JMRPointerManager.Instance.GetCurrentFocusedObject();</code></li>
+<li>Getting raycast hit object
+<code>cs
+Ray ray = JMRPointerManager.Instance.GetCurrentRay();
+if (Physics.Raycast(ray, out RaycastHit hit))
+{
+}</code></li>
+</ul>
+<h2 id="how-to-use">How to use?</h2>
+<ol>
+<li>Download and unzip this project.</li>
+<li>Open the project using Unity Hub.</li>
+<li>Download and import the latest version of JMRSDK package.</li>
+<li>Open and play the HitInfo scene from Assets/Scenes folder.</li>
+</ol>
 </article>
           </div>
           
