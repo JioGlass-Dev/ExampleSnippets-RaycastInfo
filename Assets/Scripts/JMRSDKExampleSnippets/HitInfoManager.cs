@@ -16,7 +16,7 @@ namespace JMRSDKExampleSnippets
 		/// <summary>
 		/// Call all the functions that update info.
 		/// </summary>
-		private void Update()
+		public void Update()
 		{
 			HitObjectInfo();
 			FocusedObjectInfo();
@@ -43,7 +43,7 @@ namespace JMRSDKExampleSnippets
 		/// <summary>
 		/// Get the currently focused object and update it on UI.
 		/// </summary>
-		private void FocusedObjectInfo()
+		public void FocusedObjectInfo()
 		{
 			// get current focus
 			GameObject go = JMRPointerManager.Instance.GetCurrentFocusedObject();
@@ -60,7 +60,7 @@ namespace JMRSDKExampleSnippets
 		/// <summary>
 		/// Get the currently hit object and update it on UI.
 		/// </summary>
-		private void HitObjectInfo()
+		public void HitObjectInfo()
 		{
 			// get current ray
 			Ray ray = JMRPointerManager.Instance.GetCurrentRay();
