@@ -2,7 +2,7 @@
   "api/JMRSDKExampleSnippets.HitInfoManager.html": {
     "href": "api/JMRSDKExampleSnippets.HitInfoManager.html",
     "title": "Class HitInfoManager | JMR Samples",
-    "keywords": "Class HitInfoManager Example of accessing raycast hit info Inheritance Object HitInfoManager Namespace : JMRSDKExampleSnippets Assembly : cs.temp.dll.dll Syntax public class HitInfoManager : MonoBehaviour Methods CursorInfo() Get JMRPointerObject and update it on UI. Declaration public void CursorInfo()"
+    "keywords": "Class HitInfoManager Example of accessing raycast hit info Inheritance Object HitInfoManager Namespace : JMRSDKExampleSnippets Assembly : cs.temp.dll.dll Syntax public class HitInfoManager : MonoBehaviour Methods CursorInfo() Get JMRPointerObject and update it on UI. Declaration public void CursorInfo() FocusedObjectInfo() Get the currently focused object and update it on UI. Declaration public void FocusedObjectInfo() HitObjectInfo() Get the currently hit object and update it on UI. Declaration public void HitObjectInfo() Update() Call all the functions that update info. Declaration public void Update()"
   },
   "api/JMRSDKExampleSnippets.html": {
     "href": "api/JMRSDKExampleSnippets.html",

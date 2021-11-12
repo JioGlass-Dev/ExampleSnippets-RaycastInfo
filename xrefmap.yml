@@ -26,3 +26,42 @@ references:
   isSpec: "True"
   fullName: JMRSDKExampleSnippets.HitInfoManager.CursorInfo
   nameWithType: HitInfoManager.CursorInfo
+- uid: JMRSDKExampleSnippets.HitInfoManager.FocusedObjectInfo
+  name: FocusedObjectInfo()
+  href: api/JMRSDKExampleSnippets.HitInfoManager.html#JMRSDKExampleSnippets_HitInfoManager_FocusedObjectInfo
+  commentId: M:JMRSDKExampleSnippets.HitInfoManager.FocusedObjectInfo
+  fullName: JMRSDKExampleSnippets.HitInfoManager.FocusedObjectInfo()
+  nameWithType: HitInfoManager.FocusedObjectInfo()
+- uid: JMRSDKExampleSnippets.HitInfoManager.FocusedObjectInfo*
+  name: FocusedObjectInfo
+  href: api/JMRSDKExampleSnippets.HitInfoManager.html#JMRSDKExampleSnippets_HitInfoManager_FocusedObjectInfo_
+  commentId: Overload:JMRSDKExampleSnippets.HitInfoManager.FocusedObjectInfo
+  isSpec: "True"
+  fullName: JMRSDKExampleSnippets.HitInfoManager.FocusedObjectInfo
+  nameWithType: HitInfoManager.FocusedObjectInfo
+- uid: JMRSDKExampleSnippets.HitInfoManager.HitObjectInfo
+  name: HitObjectInfo()
+  href: api/JMRSDKExampleSnippets.HitInfoManager.html#JMRSDKExampleSnippets_HitInfoManager_HitObjectInfo
+  commentId: M:JMRSDKExampleSnippets.HitInfoManager.HitObjectInfo
+  fullName: JMRSDKExampleSnippets.HitInfoManager.HitObjectInfo()
+  nameWithType: HitInfoManager.HitObjectInfo()
+- uid: JMRSDKExampleSnippets.HitInfoManager.HitObjectInfo*
+  name: HitObjectInfo
+  href: api/JMRSDKExampleSnippets.HitInfoManager.html#JMRSDKExampleSnippets_HitInfoManager_HitObjectInfo_
+  commentId: Overload:JMRSDKExampleSnippets.HitInfoManager.HitObjectInfo
+  isSpec: "True"
+  fullName: JMRSDKExampleSnippets.HitInfoManager.HitObjectInfo
+  nameWithType: HitInfoManager.HitObjectInfo
+- uid: JMRSDKExampleSnippets.HitInfoManager.Update
+  name: Update()
+  href: api/JMRSDKExampleSnippets.HitInfoManager.html#JMRSDKExampleSnippets_HitInfoManager_Update
+  commentId: M:JMRSDKExampleSnippets.HitInfoManager.Update
+  fullName: JMRSDKExampleSnippets.HitInfoManager.Update()
+  nameWithType: HitInfoManager.Update()
+- uid: JMRSDKExampleSnippets.HitInfoManager.Update*
+  name: Update
+  href: api/JMRSDKExampleSnippets.HitInfoManager.html#JMRSDKExampleSnippets_HitInfoManager_Update_
+  commentId: Overload:JMRSDKExampleSnippets.HitInfoManager.Update
+  isSpec: "True"
+  fullName: JMRSDKExampleSnippets.HitInfoManager.Update
+  nameWithType: HitInfoManager.Update
